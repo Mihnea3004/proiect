@@ -43,7 +43,7 @@ public class UITest {
 		WebDriver driver = new ChromeDriver();
 		try {
         	//Youtube Logo Visibility + Functionality Test
-            driver.get("https://www.youtube.com/");
+            driver.get("https://www.youtube.com/results?search_query=adelante");
             Thread.sleep(1000);
             driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[6]/div[1]/ytd-button-renderer[2]/yt-button-shape/button"))
                   .click();

@@ -3,7 +3,7 @@ describe('UI Test', () => {
     cy.on('uncaught:exception', (err,runnable) => {
       return false;
     })
-    cy.visit('https://www.youtube.com/');
+    cy.visit('https://www.youtube.com/results?search_query=adelante');
     cy.xpath('//*[@id="content"]/div[2]/div[6]/div[1]/ytd-button-renderer[1]/yt-button-shape/button').click();
     cy.wait(500);
     cy.get('#logo-icon').should('be.visible');
@@ -84,7 +84,7 @@ describe('UI Test', () => {
     cy.on('uncaught:exception', (err,runnable) => {
       return false;
     })
-    cy.visit('https://www.youtube.com/');
+    cy.visit('https://www.youtube.com/results?search_query=adelante');
     cy.xpath('//*[@id="content"]/div[2]/div[6]/div[1]/ytd-button-renderer[1]/yt-button-shape/button').click();
     cy.wait(500);
     cy.get('#items > ytd-mini-guide-entry-renderer:nth-child(1)').should('be.visible').click();
