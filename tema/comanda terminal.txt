@@ -1,0 +1,1 @@
+npx cypress run --browser chrome --spec "cypress/e2e/Youtube Player Commands.cy.js,cypress/e2e/UI Test.cy.js"
