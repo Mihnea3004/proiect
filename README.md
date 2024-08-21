@@ -1,0 +1,1 @@
+This is an automation testing for Youtube Website. It contains 2 sets of tests: visibility of the elements and functionality of the elements. One of the folders contains the automation test written in Java using Selenium and the other one contains the same test written in Javascript using Cypress.
